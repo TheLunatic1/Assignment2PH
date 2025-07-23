@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
 </head>
-<body>
-    
+<body class="bg-[#F5F8FF]">
+  <nav class="flex items-center p-5 xl:h-20 xl:w-[1140px] sm:h-10 sm:w-[361px] mx-auto border">
+    <div class="logo">
+      <img src="images/logo.png" alt="Faugei Flower Shop" class="h-10">
+    </div>
+    <div class="ml-auto flex items-center gap-5">
+      <a href="#" class="text-black text-base font-bold hidden sm:hidden xl:block">Home</a>
+      <a href="#" class="text-gray-600 text-base hidden sm:hidden xl:block">Shop</a>
+      <a href="#" class="text-gray-600 text-base hidden sm:hidden xl:block">About us</a>
+      <div class="cart flex items-center gap-1">
+        <img class="w-5" src="images/cart.png" alt="cart">
+        <span class="text-black text-base">Cart ($56)</span>
+      </div>
+    </div>
+  </nav>
 </body>
 </html>
