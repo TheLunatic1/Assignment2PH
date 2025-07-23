@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-  </style>
+    </style>
 </head>
 <body class="bg-[#F5F8FF]">
-  <nav class="flex items-center p-5 xl:h-20 xl:w-[1140px] sm:h-10 sm:w-[361px] mx-auto border">
+  <nav class="flex items-center p-5 xl:h-20 xl:w-[1140px] sm:h-10 sm:w-[361px] mx-auto border font-(family-name:inter)">
     <div class="logo">
       <img src="images/logo.png" alt="Faugei Flower Shop" class="h-10">
     </div>
@@ -27,5 +27,19 @@
       </div>
     </div>
   </nav>
+
+
+  <section class="flex flex-col xl:flex-row xl:h-[461px] sm:h-[420px] xl:w-[1140px] sm:w-[393.18px] mx-auto xl:mt-30 sm:mt-7 border">
+    <div class="w-full xl:order-2">
+      <img src="images/hero-flower.png" alt="Hero Flower" class="w-full h-full object-cover">
+    </div>
+    <div class="flex flex-col justify-center w-full xl:order-1 p-5">
+      <h1 class="xl:text-[65px] sm:text-[24px] font-bold text-[#f28c38] font-noto"><span class="text-black">ALWAYS</span> FRESH<br>FLOWERS</h1>
+      <p class="xl:text-[22px] sm:text-[14px] text-gray-600 text-base mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+    </div>
+  </section>
+
+
+
 </body>
 </html>
