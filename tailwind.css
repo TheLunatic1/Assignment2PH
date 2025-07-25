@@ -1,1 +1,21 @@
 @import "tailwindcss"
+
+@keyframes badge-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.trust-badge-container {
+  position: relative;
+  /* Adjust width as needed */
+  width: fit-content; 
+}
+
+.trust-badge-spin {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%; /* Adjust size as needed */
+  animation: badge-spin 3s linear infinite;
+  transform-origin: center center; /* Ensures it spins around its center */
+}
